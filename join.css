@@ -1,0 +1,120 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    height: 100vh; 
+    background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.753)), 
+                url(images/dumbell.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+}
+
+
+
+:root{
+
+    --bg-color: #000;
+    --snd-bg-color: #111;
+    --text-color: #fff;
+    --main-color: #45ffca;
+}
+
+
+.form-container{
+
+align-items: center;
+background: transparent;
+box-shadow:  0 0 3px var(--main-color);
+width: 27%;
+height: 350px;
+margin-left: 550px;
+border-radius: 20px;
+transition: all 0.6s ease;
+background-color: transparent;
+background-color: var(--snd-bg-color);
+
+
+}
+
+.form-container:hover{
+
+    box-shadow:  0 0 12px var(--main-color);
+    transform: scale(1.1);
+    
+}
+
+
+.head{
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+    padding-top: 40px;
+    color: var(--main-color);
+    text-shadow: 0px 0px 7px black;
+    text-shadow: 0px 0px 10px black;
+    text-decoration: underline;
+}
+
+
+.box1{
+
+    margin-top: 50px;
+}
+
+.box{
+
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+    color: var(--text-color);
+
+}
+
+.bttn{
+    color: var(--bg-color);
+    margin: 165px;
+    background-color: var(--text-color);
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--text-color);
+    transition: all 0.5s ease;
+    
+}
+
+.bttn:hover{
+
+    text-shadow:  4px 4px 10px black;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    box-shadow:  0 0 14px var(--main-color);
+}
+
+
+
+.log{
+
+    color: #fff;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+    transition: all 0.5s ease;
+}
+
+.log:hover{
+
+    color: var(--main-color);
+    transform: scale(1.1);
+}
+
+
+
